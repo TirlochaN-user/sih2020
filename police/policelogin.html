@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:600&dispaly=swap">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+
+<body>
+    <img class="wave" src="../images/photo-1557081998-05f784dcdd41.jpg">
+    <div class="container">
+        <!-- <div class="img">
+			<img src="img/im.png">
+		</div> -->
+        <div class="login-container">
+            <form action="policevalidate.php" method="POST">
+                <img class="avatar" src="../images/avatar2.png">
+                <h2>LOGIN</h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                        <h5>Id</h5>
+                        <input class="input" type="text" name="id" />
+                    </div>
+                </div>
+                <div class="input-div two">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div>
+                        <h5>Password</h5>
+                        <input class="input" type="password" id="password-field" name="password" />
+                        <i id="pass-status" class="fa fa-eye" aria-hidden="true" onClick="viewPassword()"></i>
+                    </div>
+                </div>
+                <a href="#">Forget Password?</a>
+                <input type="submit" class="btn" value="Login">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/policemain.js"></script>
+</body>
+
+</html>
